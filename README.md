@@ -1,2 +1,2 @@
 # Yelp-Business-Review
-An NLP project that utilizes NLTK and MultinomialNB to predict star ratings given user reviews 
+This is an NLP project that predicts user ratings based on comments using models namely DistilBERT, XGBoost, MultinomialNB, random forest, SVM, and Logistic Regression. We used F1 and accuracy as prediction metrics and obtained a final model with an accuracy score 11% higher than the baseline model. We applied multiple data preprocessing techniques such as tf-idf, tokenization, and stemming before applying machine learning models. For DistilBERT, we only applied contextual embedding without further processing. We also applied sentiment analysis and LDA to find the most important words & topics from the user comments.
